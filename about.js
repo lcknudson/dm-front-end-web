@@ -1,14 +1,22 @@
-console.log("hello world");
+// console.log("hello world");
 
-
+const duckImage = document.querySelector('#duck-image')
 
 function handleSubmit(evt) {
 	evt.preventDefault();
-	
-	console.log('form submit');
+	alert('Form has been submitted successfully!')
+	// console.log('form submit');
 }
 
+function foundDuck(evt) {
+	evt.preventDefault();
+	alert('Great Job! These are the best listener ducsk.')
+}
 
 let form = document.querySelector('#contact');
 
 form.addEventListener('submit', handleSubmit);
+duckImage.addEventListener('mouseover', foundDuck)
+
+
+// console.log('the end')
