@@ -10,7 +10,7 @@ function handleSubmit(evt) {
 
 function foundDuck(evt) {
 	evt.preventDefault();
-	alert('Great Job! These are the best listener ducsk.')
+	alert('Great Job! These are the best listener ducks.')
 }
 
 let form = document.querySelector('#contact');
