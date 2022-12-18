@@ -1,4 +1,4 @@
-console.log('We are connected, Captain Kirk')
+// console.log('We are connected, Captain Kirk')
 
 const colorBtn = document.querySelector('#color')
 const placeBtn = document.querySelector('#place')
@@ -19,11 +19,11 @@ function favRitual() {
     alert('Morning coffee')
 }
 
-console.log('Are we there yet, Mr. Scott')
+// console.log('Are we there yet, Mr. Scott')
 
 colorBtn.addEventListener('click', favColor)
 placeBtn.addEventListener('click', favPlace)
 ritualBtn.addEventListener('click', favRitual)
 
-console.log('We got beamed down, Commander Spock')
+// console.log('We got beamed down, Commander Spock')
 
