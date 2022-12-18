@@ -21,13 +21,9 @@ function favRitual() {
 
 console.log('Are we there yet, Mr. Scott')
 
-
-
-
 colorBtn.addEventListener('click', favColor)
 placeBtn.addEventListener('click', favPlace)
 ritualBtn.addEventListener('click', favRitual)
 
-
-
 console.log('We got beamed down, Commander Spock')
+

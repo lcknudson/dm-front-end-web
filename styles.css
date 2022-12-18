@@ -36,3 +36,11 @@ input {
 img {
 	max-width: 300px;
 }
+
+.profile-buttons {
+	font-family: "Brush Script MT", cursive;
+	font-size: 30px;
+	background-color: yellow;
+	
+}
+
